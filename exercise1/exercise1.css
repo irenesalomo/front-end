@@ -1,0 +1,179 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  font-family: Georgia, serif;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1.5;
+  background-color: #5DD4AD;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+#container {
+	width: 790px;
+	float: none;
+	background-color: #E89A0C;
+	border-top-style: solid;
+	border-top-width: 5px;
+	border-top-color: #4A0CE8;
+	border-bottom-style: solid;
+	border-bottom-width: 5px;
+	border-bottom-color: #4A0CE8;
+	margin: 30px 250px 30px 250px;
+}
+
+#page {
+	margin: 0px 25px 8px;
+}
+
+#header {
+	border-bottom: 1px solid #0717F5;
+	padding-bottom: 90px;
+	padding-left: 0;
+	padding-top: 18px;
+}
+
+#headerText1{
+	color: #0717F5;
+	width: 230px;
+	padding: 5px 20px 10px 20px; 
+	margin-top: 5px;
+	margin-bottom: 10px;
+	font-size: 150%;
+	letter-spacing: 2px;
+	font-weight: bold;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	float:left;
+	display: inline;
+	border-right: 0.5px solid #0717F5;
+	}
+	
+#headerText2 {
+	float:left;
+	font-style: italic;
+	padding: 18px 0 20px 20px; 
+	display: inline;
+	font-family: Georgia, serif;
+	font-size: 70%
+}
+
+#header ul {
+	padding-right: 35px;
+	}
+
+#header li a {
+	float: right;
+	padding: 8px 10px 8px 10px;
+	margin-top: 8px;
+	border: 1px solid #0717F5;
+	margin-left: 8px;
+	text-decoration: none;
+}
+
+#header li a: hover {
+	background-color: #0717F5;
+}
+
+#aboutSection {
+	background-color: #f2f2f2;
+	border-bottom: 1px solid #0717F5;
+	height: 145px;
+}
+
+#about1, #about2, #about3 {
+	float: left;
+	width: 215px;
+	padding: 15px 15px 15px 15px;
+}
+
+#aboutSection h2 {
+	font-weight: bold;
+	padding-bottom: 5px;
+}
+
+#aboutSection p {
+	font-size: 76%;
+	text-align: justify;
+	
+}
+
+#aboutProject {
+	height: 300px;
+	border-bottom: 1px solid #0717F5;
+}
+
+#aboutProjectText, #aboutProjectImage {
+	float: left;
+	width: 340px;
+	font-size: 76%;
+	padding: 15px;
+}
+
+#aboutProjectText h2 {
+	padding-bottom: 10px;
+	font-size: 150%;
+	font-weight: bold;
+}
+
+#aboutProjectText p {
+	padding-top: 5px;
+}
+
+#recentNews {
+	position:relative;
+}
+
+.recentNewsImage {
+	position:relative;
+	left: 25px;
+	top: 27px;
+	width: 120px;
+	height: 109px;
+}
+
+.recentNewsText {
+	position: absolute;
+	left: 150px;
+	top: 27px;
+	width: 350px;
+	text-align: justify;
+}
